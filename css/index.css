@@ -23,7 +23,7 @@ body {
 
 
 .calculator{ 
-    height: 60vh;
+    height: 50vh;
     min-width: 370px;
     max-width: 370px;
 }
@@ -90,7 +90,7 @@ button:hover {
 
 
 .calculator-history {
-    height: 60vh;
+    height: 50vh;
     margin: 20px;
     width: 150px;
     background-color: rgba(20,27,27,0.151);
