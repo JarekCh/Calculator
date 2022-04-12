@@ -4,16 +4,18 @@
   <meta charset="utf-8">
   <title>calculatorJS</title>
   <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
   <script type="text/javascript" src="./js/index.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js" defer></script>
 </head>
 <body>   
   <div class="calculator">
     <div class="display">
       <div class="previousNumber">
-        <p>12</p>
-        <span class="mathSign">+</span>
+        <p></p>
+        <span class="mathSign"></span>
       </div>      
-      <p class="currentNumber">12</p>
+      <p class="currentNumber"></p>
     </div>
     <div class="panel">
       <button class="clear">C</button>
@@ -37,7 +39,7 @@
       <button class="number">.</button>           
     </div>
   </div>
-  <div class="calculator-history">
+  <div data-simplebar class="calculator-history">
     <p class="history-title">Last Calculations <button class="history-btn" >
       Clear History
     </button></p>

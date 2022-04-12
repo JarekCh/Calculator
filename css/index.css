@@ -14,8 +14,7 @@ html {
 
 body {
     min-height: 100vh;
-    background-image: linear-gradient(to right, rgb(117, 117, 187), rgb(17, 105, 43));
-
+    background-image:linear-gradient(to right top, rgb(84, 84, 201), rgb(65, 141, 65) );
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +47,6 @@ body {
 
 .currentNumber {
     font-size: 35px;
-
 }
 
 
@@ -103,7 +101,7 @@ button:hover {
 }
 
 .history {
-    list-style: none;
+    list-style: none;    
 }
 
 .history-title {
