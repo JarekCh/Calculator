@@ -98,7 +98,7 @@ function clearScreen() {
 function clearHistory() {
     calculatorHistory.textContent = '';
     if(calculatorHistory.textContent === '') {
-        historyBtn.classList.remove('a')
+        historyBtn.classList.remove('active')
     }
 }
 
